@@ -20,7 +20,13 @@
 
   <dependencies>
     <!-- JUnit вырезал, раз он не нужен, соотвествующий файловый «шум» зачистил -->
-    <!-- Логгер есть в зависимостях webdrivermanager, сюда его подключать бессмысленно -->
+    <!-- Привязка для логгера, чтобы не ругался -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.32</version>
+    </dependency>
+    <!-- Selenium и его менеджер браузеров -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
