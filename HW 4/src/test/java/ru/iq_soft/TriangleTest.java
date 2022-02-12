@@ -50,7 +50,7 @@ public class TriangleTest{
 
     @ParameterizedTest
     @CsvFileSource(resources = "/InvalidTriangles.csv")
-    @DisplayName("Тест 3: проверка корректности срабатывания исключнения при вырождении в точку или отрезок")
+    @DisplayName("Test 3: проверка корректности срабатывания исключнения при вырождении в точку или отрезок")
     void test3(int a, int b, int c) throws InvalidTriangleException, DegenerateTriangleException {
         logger.info("Тест 3: проверка корректности срабатывания исключнения при вырождении в точку или отрезок");
         // способ с обработкой (анализом) исключения
