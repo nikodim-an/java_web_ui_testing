@@ -7,3 +7,4 @@ stend.*
 stend/
 out
 in
+*.log
