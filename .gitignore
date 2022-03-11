@@ -1,6 +1,9 @@
 .idea
 *.iml
-target
+target/
+nopush/
+.allure/
+allure-results/
 META-INF
 *.class
 stend.*
